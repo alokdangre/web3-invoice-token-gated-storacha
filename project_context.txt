@@ -1,0 +1,173 @@
+Project structure:
+.
+├── LICENSE
+├── README.md
+├── codebase_files.txt
+├── favicon.ico
+├── package-lock.json
+├── package.json
+├── project_context.txt
+├── public
+│   ├── favicon.ico
+│   ├── images
+│   │   ├── sc_1x1.gif
+│   │   ├── sc_aligncenter.png
+│   │   ├── sc_alignleft.png
+│   │   ├── sc_alignright.png
+│   │   ├── sc_autosum.png
+│   │   ├── sc_bordersoff.png
+│   │   ├── sc_borderson.png
+│   │   ├── sc_copy.png
+│   │   ├── sc_cursorinsertleft.gif
+│   │   ├── sc_cursorinsertup.gif
+│   │   ├── sc_cut.png
+│   │   ├── sc_defaultcolor.gif
+│   │   ├── sc_delete.png
+│   │   ├── sc_deletecolumns.png
+│   │   ├── sc_deleterows.png
+│   │   ├── sc_divider1.png
+│   │   ├── sc_downsearch.png
+│   │   ├── sc_drag-handles.gif
+│   │   ├── sc_drag-handles.png
+│   │   ├── sc_endcap-h.gif
+│   │   ├── sc_endcap-v.gif
+│   │   ├── sc_filldown.png
+│   │   ├── sc_fillright.png
+│   │   ├── sc_formatpaintbrush.png
+│   │   ├── sc_hidecol.png
+│   │   ├── sc_hiderow.png
+│   │   ├── sc_insertcolumns.png
+│   │   ├── sc_insertformula.png
+│   │   ├── sc_inserthyperlink.png
+│   │   ├── sc_insertrows.png
+│   │   ├── sc_less-hd.gif
+│   │   ├── sc_less-hh.gif
+│   │   ├── sc_less-hn.gif
+│   │   ├── sc_less-vh.gif
+│   │   ├── sc_less-vn.gif
+│   │   ├── sc_listbox.png
+│   │   ├── sc_lock.png
+│   │   ├── sc_lockbg.gif
+│   │   ├── sc_logo.gif
+│   │   ├── sc_main-h.gif
+│   │   ├── sc_main-v.gif
+│   │   ├── sc_mergecells.png
+│   │   ├── sc_more-hd.gif
+│   │   ├── sc_more-hh.gif
+│   │   ├── sc_more-hn.gif
+│   │   ├── sc_more-vd.gif
+│   │   ├── sc_more-vh.gif
+│   │   ├── sc_more-vn.gif
+│   │   ├── sc_movefrom.gif
+│   │   ├── sc_movefromoff.gif
+│   │   ├── sc_moveinsert.gif
+│   │   ├── sc_moveinsertoff.gif
+│   │   ├── sc_movepaste.gif
+│   │   ├── sc_movepasteoff.gif
+│   │   ├── sc_paneslider-h.gif
+│   │   ├── sc_paneslider-v.gif
+│   │   ├── sc_paste.png
+│   │   ├── sc_range2.gif
+│   │   ├── sc_recalc.png
+│   │   ├── sc_redo.png
+│   │   ├── sc_scrollarea-h.gif
+│   │   ├── sc_scrollarea-v.gif
+│   │   ├── sc_swapcolors.png
+│   │   ├── sc_thumb-hd.gif
+│   │   ├── sc_thumb-hh.gif
+│   │   ├── sc_thumb-hn.gif
+│   │   ├── sc_thumb-vd.gif
+│   │   ├── sc_thumb-vh.gif
+│   │   ├── sc_thumb-vn.gif
+│   │   ├── sc_trackingline-h.gif
+│   │   ├── sc_trackingline-v.gif
+│   │   ├── sc_undo.png
+│   │   ├── sc_unhidebottom.gif
+│   │   ├── sc_unhideleft.gif
+│   │   ├── sc_unhideright.gif
+│   │   ├── sc_unhidetop.gif
+│   │   ├── sc_unlock.png
+│   │   └── sc_upsearch.png
+│   ├── index.html
+│   └── styles
+│       ├── milligram.css
+│       ├── milligram.min.css
+│       └── normalize.css
+├── src
+│   ├── App
+│   │   ├── App.css
+│   │   ├── App.js
+│   │   └── App.test.js
+│   ├── Files
+│   │   ├── Files.css
+│   │   ├── Files.js
+│   │   └── Files.test.js
+│   ├── Menu
+│   │   ├── Menu.css
+│   │   ├── Menu.js
+│   │   └── Menu.test.js
+│   ├── app-data.js
+│   ├── img
+│   │   └── logo.svg
+│   ├── index.css
+│   ├── index.js
+│   ├── socialcalc
+│   │   ├── AppGeneral.js
+│   │   ├── aspiring
+│   │   ├── index.js
+│   │   └── package.json
+│   ├── storage
+│   │   └── LocalStorage.js
+│   └── utils
+│       ├── Web3Provider.js
+│       ├── constants.js
+│       ├── medinvoiceabi.json
+│       └── meditokenabi.json
+└── yarn.lock
+
+13 directories, 112 files
+Package.json content:
+{
+  "name": "react-webapp",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@tanstack/react-query": "^5.49.2",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@web3-storage/w3up-client": "^17.2.0",
+    "connectkit": "^1.8.2",
+    "ethers": "5.6.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-scripts": "5.0.1",
+    "viem": "2.x",
+    "wagmi": "^2.10.9",
+    "web-vitals": "^2.1.4",
+    "whatwg-fetch": "^2.0.3"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "react-scripts": "5.0.1",
+    "typescript": "^4.9.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
