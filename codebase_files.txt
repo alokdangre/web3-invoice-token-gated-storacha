@@ -1,0 +1,16 @@
+./src/socialcalc/index.js
+./src/socialcalc/AppGeneral.js
+./src/socialcalc/aspiring/SocialCalc copy.js
+./src/socialcalc/aspiring/SocialCalc_ethercalc.js
+./src/socialcalc/aspiring/SocialCalc.js
+./src/App/App.js
+./src/App/App.test.js
+./src/index.js
+./src/app-data.js
+./src/storage/LocalStorage.js
+./src/utils/constants.js
+./src/utils/Web3Provider.js
+./src/Menu/Menu.test.js
+./src/Menu/Menu.js
+./src/Files/Files.js
+./src/Files/Files.test.js
